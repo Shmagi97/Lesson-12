@@ -1,20 +1,27 @@
+body {
+  background-color: rgb(245, 245, 245);
+  height: 1000px;
+}
+
 .header {
   width: 100%;
   height: 100px;
-  border: solid;
-  position: fixed;
+  /* border: solid; */
+
   display: flex;
   align-items: center;
-  margin: -7px;
 }
 
 .navigacia {
   width: 100%;
-  border: solid red;
-
+  height: 116px;
+  /* border: solid red; */
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(245, 245, 245);
+  z-index: 100;
 }
 
 .Navtext {
@@ -43,5 +50,56 @@
 }
 
 .Home {
+  height: 30px;
   border-bottom: solid #29b24e;
+}
+
+.Main {
+  /* border: solid red; */
+  /* height: 600px; */
+  width: 80%;
+  margin: 100px auto;
+  /* margin-top: 100px; */
+  /* position: absolute; */
+}
+
+.LeftMeniuFoto {
+  display: flex;
+  gap: 10px;
+  /* border: solid red; */
+}
+
+.LeftMeniu {
+  width: 395px;
+  height: 751px;
+  border: solid;
+  background-color: #f8f8f8;
+  border-radius: 24px;
+}
+
+.KontainerLeftMeniu {
+  width: 90%;
+  height: 90%;
+  border: solid red;
+  margin: 30px auto;
+}
+
+.h2 {
+  width: 69px;
+  height: 24px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.RightFoto {
+  width: 100%;
+
+  /* border: solid; */
+}
+
+.FotoHad {
+  width: 100%;
+  height: 751px;
+  object-fit: cover;
+  border-radius: 24px;
 }
