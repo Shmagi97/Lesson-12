@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  height: 100px;
+  border: solid;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  margin: -7px;
+}
+
+.navigacia {
+  width: 100%;
+  border: solid red;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navtext {
+  display: flex;
+  gap: 20px;
+}
+
+.SellSomething {
+  width: 156px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #29b24e;
+}
+
+.SellSomething a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navtext a {
+  text-decoration: none;
+  color: #000000e5;
+}
+
+.Home {
+  border-bottom: solid #29b24e;
+}
