@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(245, 245, 245);
   height: 1000px;
@@ -37,6 +43,7 @@ body {
   align-items: center;
   border-radius: 12px;
   background-color: #29b24e;
+  cursor: pointer;
 }
 
 .SellSomething a {
@@ -82,6 +89,12 @@ body {
   height: 90%;
   border: solid red;
   margin: 30px auto;
+  /* display: grid;
+  gap: 5px; */
+}
+
+.MarginTopKontMeniuItems {
+  margin: 10px 0px;
 }
 
 .h2 {
@@ -92,27 +105,82 @@ body {
 }
 
 .inputAndiqon {
-  /* border: solid; */
   width: 100%;
   display: flex;
   align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.input-hoby {
+  /* border: solid; */
+  width: 85%;
+}
+
+.iqondiv {
+  /* border: solid; */
+  display: flex;
 }
 
 .InputText {
   width: 100%;
   height: 48px;
-  border: 1px solid black;
-  border-radius: 10px;
+
   background-color: #f8f8f8;
   outline: none;
-  /* inputshi sheyvanilma textma ar gadafaros aiqoni */
+  border: none;
+}
+
+.InputText::placeholder {
+  color: #000000;
+  font-size: 14px;
 }
 
 .InputIqon {
-  transform: translateX(-30px);
   width: 16px;
   height: 16px;
   opacity: 90%;
+}
+.h2-2 {
+  color: #000000;
+  font-size: 16px;
+}
+
+.Checkbox-Paragraf-Flex-Kont {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-border {
+  border: solid;
+}
+
+.input-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  opacity: 90%;
+  border: none;
+  outline: hidden;
+
+  /* @@@ gaaagrdzele aqidan @@@ */
+
+  /* border: 1px solid #f61010;
+  color: #29b24e;
+  background-color: #29b24e;
+  border-color: #29b24e; */
+}
+
+.input-checkbox:focus {
+  color: #010101;
+  background-color: #29b24e;
+  border-color: #29b24e;
+  border-top-color: #010101;
+}
+.checkbox-paragraf {
+  font-size: 14px;
+  color: #000000;
 }
 
 .RightFoto {

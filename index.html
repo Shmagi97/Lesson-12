@@ -29,19 +29,52 @@
       <section class="LeftMeniuFoto">
         <div class="LeftMeniu">
           <div class="KontainerLeftMeniu">
-            <h2 class="h2">Location</h2>
-            <div class="inputAndiqon">
-              <input
+            <h2 class="h2 MarginTopKontMeniuItems">Location</h2>
+            <div class="inputAndiqon MarginTopKontMeniuItems">
+              <!-- <input
                 type="text"
                 class="InputText"
                 placeholder="All Kenya"
                 name="input-text"
-              />
-              <img
-                class="InputIqon"
-                src="fotoebi/IqonInput.png"
-                alt="inputiqon"
-              />
+              /> -->
+
+              <div class="input-hoby">
+                <label for="hoby"></label>
+                <input
+                  list="hobies"
+                  name="hoby"
+                  id="hoby"
+                  class="InputText"
+                  placeholder="All Kenya"
+                />
+                <datalist id="hobies">
+                  <option value="reading"></option>
+                  <option value="programming"></option>
+                  <option value="music"></option>
+                </datalist>
+              </div>
+              <div class="iqondiv">
+                <img
+                  class="InputIqon"
+                  src="fotoebi/IqonInput.png"
+                  alt="inputiqon"
+                />
+              </div>
+            </div>
+            <h2 class="h2-2 MarginTopKontMeniuItems">property</h2>
+            <div class="Checkbox-Paragraf-Flex-Kont">
+              <!-- @@@ aqidan @@@ -->
+              <div class="checkbox-border">
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="InputCheckbox"
+                />
+              </div>
+
+              <p class="checkbox-paragraf">
+                Houses & Apartments for Rent | 9548
+              </p>
             </div>
           </div>
         </div>
