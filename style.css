@@ -62,11 +62,13 @@ body {
 }
 
 .Main {
-  /* border: solid red; */
+  border: solid red;
   /* height: auto; */
   width: 80%;
   margin: 100px auto;
 }
+
+/* meniu left */
 
 .LeftMeniuFoto {
   display: flex;
@@ -158,7 +160,6 @@ body {
 }
 
 .checkbox-conteiner {
-  /* display: block; */
   position: relative;
 
   /* border: solid; */
@@ -222,6 +223,8 @@ body {
   font-size: 16px;
 }
 
+/* fhoto search right */
+
 .RightFoto {
   width: 100%;
   position: relative;
@@ -278,6 +281,7 @@ body {
   background-color: #ffffffcc;
   border-radius: 10px;
   margin-top: 40px;
+  box-shadow: 8px 8px 25px 0px;
 }
 
 .Search-Had-Css {
@@ -305,4 +309,147 @@ body {
   height: 18px;
   opacity: 50%;
   cursor: pointer;
+}
+
+/* trendings ads cards */
+
+.h3 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.section-grid-cont {
+  border: solid yellow;
+  /* display: grid; */
+}
+
+.cont-1 {
+  /* border: solid; */
+  width: 295px;
+  height: 424px;
+  border-radius: 24px;
+  background-color: #f8f8f8;
+}
+
+.img-for-cont-1-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+
+  transform: translateY(12px);
+  align-items: center;
+  position: relative;
+  /* border: solid red; */
+}
+
+.img-for-cont-1 {
+  width: 263px;
+  height: 202px;
+  border-radius: 20px;
+}
+
+.vip-for-cont-1 {
+  /* border: solid; */
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  transform: translateX(25px);
+  width: 76px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #29b24e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.vip-for-cont-1-paragraf {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.nishani-for-cont-1-article {
+  /* border: solid; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(-20px);
+  margin-top: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.nishani-for-cont-1 {
+  width: 18px;
+  height: 18px;
+}
+
+.h4-article {
+  /* border: solid; */
+  width: 263px;
+}
+
+.h4 {
+  color: #000000;
+  font-size: 16px;
+}
+
+.h4-bottom-paragraf-article {
+  /* border: solid; */
+  width: 263px;
+}
+
+.h4-bottom-paragraf {
+  font-size: 14px;
+  color: #000000;
+  opacity: 50%;
+}
+
+.price-article {
+  width: 263px;
+  /* border: solid; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-number {
+  font-size: 24px;
+  color: #29b24e;
+}
+
+.price-month {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.xazi-cont-1 {
+  width: 100%;
+
+  border: 0.5px solid #cfead6;
+}
+
+.end-element-cont {
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  width: 263px;
+  height: 60px;
+  justify-content: space-between;
+  transform: translateY(-10px);
+}
+
+.end-paragraf {
+  font-size: 14px;
+  color: #000000;
 }
