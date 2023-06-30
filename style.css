@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(219, 218, 218);
   height: 1000px;
 }
 
@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(219, 218, 218);
   z-index: 100;
 }
 
@@ -63,11 +63,9 @@ body {
 
 .Main {
   /* border: solid red; */
-  /* height: 600px; */
+  /* height: auto; */
   width: 80%;
   margin: 100px auto;
-  /* margin-top: 100px; */
-  /* position: absolute; */
 }
 
 .LeftMeniuFoto {
@@ -77,24 +75,29 @@ body {
 }
 
 .LeftMeniu {
-  width: 395px;
-  height: 751px;
-  border: solid;
+  min-width: 295px;
+  max-width: 395px;
+  width: 30%;
+  height: auto;
+  /* border: solid; */
   background-color: #f8f8f8;
   border-radius: 24px;
 }
 
 .KontainerLeftMeniu {
   width: 90%;
-  height: 90%;
-  border: solid red;
-  margin: 30px auto;
-  /* display: grid;
-  gap: 5px; */
+  /* height: auto; */
+  /* border: solid red; */
+  margin: 15px auto;
+}
+
+.Left-meniu-bottom-items-widths {
+  /* border: solid; */
+  width: 60%;
 }
 
 .MarginTopKontMeniuItems {
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 .h2 {
@@ -147,20 +150,20 @@ body {
   font-size: 16px;
 }
 
-.Checkbox-Paragraf-Flex-Kont {
-  display: flex;
-  gap: 10px;
+.Checkbox-Paragraf-Grid-Kont {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 17px;
+  column-gap: 20px;
 }
 
 .checkbox-conteiner {
-  display: block;
+  /* display: block; */
   position: relative;
-  /* font-size: 22px; */
+
   /* border: solid; */
   user-select: none;
   cursor: pointer;
-  padding: 6px;
-  /* margin-bottom: 12px; */
 }
 
 .checkbox-conteiner input {
@@ -176,9 +179,8 @@ body {
   border: solid #29b24e;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
+  height: 16px;
+  width: 16px;
 }
 
 .input-span:hover {
@@ -200,49 +202,24 @@ body {
 }
 
 .checkbox-conteiner .input-span::after {
-  left: 3px;
-  top: 2px;
-  width: 3px;
+  left: 2px;
+  top: 1px;
+  width: 4px;
   height: 5px;
   border: solid white;
-  border-width: 0 5px 5px 0;
+  border-width: 0 2px 2px 0;
 
   transform: rotate(45deg);
 }
-/* .input-checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  opacity: 90%;
-  border: 10px solid red !important;
-  border: none;
-  outline: none;
 
-  @@@ gaaagrdzele aqidan @@@ */
-
-/* border: 1px solid #f61010;
-  color: #29b24e;
-  background-color: #29b24e;
-  border-color: #29b24e;
-} */
-
-/* .input-checkbox:checked {
-  border-color: #29b24e;
-  color: #010101;
-  background-color: #29b24e;
-  border-color: #29b24e;
-  border-top-color: #010101;
-}
-
-.input-checkbox:focus {
-  color: #010101;
-  background-color: #29b24e;
-  border-color: #29b24e;
-  border-top-color: #010101;
-} */
 .checkbox-paragraf {
   font-size: 14px;
   color: #000000;
+}
+
+.h2-3 {
+  color: #000000;
+  font-size: 16px;
 }
 
 .RightFoto {
