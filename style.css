@@ -224,8 +224,11 @@ body {
 
 .RightFoto {
   width: 100%;
+  position: relative;
+  /* border: solid red; */
+  display: flex;
 
-  /* border: solid; */
+  justify-content: center;
 }
 
 .FotoHad {
@@ -233,4 +236,73 @@ body {
   height: 751px;
   object-fit: cover;
   border-radius: 24px;
+}
+
+.Elementsin-foto-flex-cont {
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  margin-top: 70px;
+  gap: 10px;
+}
+
+.h1 {
+  font-size: 48px;
+  color: #000000cc;
+}
+
+.Elementsin-foto-flex-paragraf-cont {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.Elementsin-foto-paragraf {
+  font-size: 16px;
+  color: #000000cc;
+}
+
+.Elementsin-foto-flex-search-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.Search-Had-Css-Cont {
+  /* border: solid blue; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.Search-Had-Css {
+  width: 224px;
+  height: 48px;
+  background-color: #f8f8f8cc;
+
+  border: none;
+  outline: none;
+}
+
+.Search-Had-Css::placeholder {
+  color: #000000;
+  font-size: 14px;
+  opacity: 20%;
+}
+
+.search-iqon-cont {
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+}
+.search-iqon {
+  width: 18px;
+  height: 18px;
+  opacity: 50%;
+  cursor: pointer;
 }
