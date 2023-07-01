@@ -62,7 +62,7 @@ body {
 }
 
 .Main {
-  border: solid red;
+  /* border: solid red; */
   /* height: auto; */
   width: 85%;
   margin: 100px auto;
@@ -495,4 +495,32 @@ body {
 .footer-span {
   color: #ffffff;
   font-size: 14px;
+}
+
+/* hom internal page style css */
+
+.Main {
+  border: solid red;
+  /* droebit */
+}
+
+.fhoto-and-info-flex-cont {
+  border: solid;
+  display: flex;
+}
+
+.left-fhoto {
+  border: solid yellow;
+}
+
+.hom-internal-foto-1 {
+  width: 100%;
+  /* object-fit: cover; */
+  height: 732px;
+}
+
+.hom-internal-foto-info-cont {
+  border: solid;
+  width: 100%;
+  height: 700px;
 }
