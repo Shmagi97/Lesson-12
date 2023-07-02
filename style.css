@@ -761,3 +761,18 @@ body {
   color: #ffffff;
   font-size: 14px;
 }
+
+/* home internal h2 and cards */
+
+.h2 {
+  color: #000000;
+  font-size: 22px;
+  line-height: 33px;
+  width: 125px;
+  height: 33px;
+  margin-top: 40px;
+}
+
+.section-flex-cont-home-internal-page {
+  margin-top: 20px;
+}
