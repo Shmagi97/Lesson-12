@@ -63,7 +63,7 @@ body {
 
 .Main {
   /* border: solid red; */
-  /* height: auto; */
+
   width: 85%;
   margin: 100px auto;
 }
@@ -509,18 +509,41 @@ body {
 .fhoto-and-info-flex-cont {
   /* border: solid; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 }
 
-/* .left-fhoto {
-  border: solid yellow;
-} */
-
+.left-fhoto {
+  /* border: solid yellow; */
+  position: relative;
+  width: 50%;
+}
 .hom-internal-foto-1 {
   width: 100%;
   object-fit: cover;
-  height: 572px;
+  height: 560px;
   box-shadow: 10px 10px 18px 0px #0000004d;
+  border-radius: 20px;
+}
+
+.hom-internal-foto-2 {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 560px;
+  box-shadow: 10px 10px 18px 0px #0000004d;
+  border-radius: 20px;
+}
+
+.hom-internal-foto-3 {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 560px;
+  box-shadow: 10px 10px 18px 0px #0000004d;
+  border-radius: 20px;
+  z-index: 10;
+  visibility: hidden;
 }
 
 .hom-internal-foto-info-flex-cont {
@@ -534,7 +557,7 @@ body {
 
 .hom-internal-foto-info-cont {
   /* border: solid; */
-  width: 95%;
+  width: 100%;
 
   min-height: 560px;
   border-radius: 15px;
