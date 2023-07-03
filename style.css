@@ -542,8 +542,6 @@ body {
   height: 560px;
   box-shadow: 10px 10px 18px 0px #0000004d;
   border-radius: 20px;
-  z-index: 10;
-  visibility: hidden;
 }
 
 .hom-internal-foto-info-flex-cont {
