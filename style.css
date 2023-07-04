@@ -515,10 +515,11 @@ body {
 
 .left-fhoto {
   /* border: solid yellow; */
-  position: relative;
+  /* position: relative; */
   width: 50%;
 }
 .hom-internal-foto-1 {
+  /* position: absolute; */
   width: 100%;
   object-fit: cover;
   height: 560px;
@@ -527,7 +528,7 @@ body {
 }
 
 .hom-internal-foto-2 {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   object-fit: cover;
   height: 560px;
@@ -536,7 +537,7 @@ body {
 }
 
 .hom-internal-foto-3 {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   object-fit: cover;
   height: 560px;
