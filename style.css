@@ -822,7 +822,68 @@ body {
   display: none;
 }
 
+.had-line-the-middle-flex-column-span-2-display-none {
+  display: none;
+}
+
 /* media motxovnebi */
+
+@media (max-width: 1035px) {
+  .fhoto-and-info-flex-cont {
+    flex-wrap: wrap;
+  }
+
+  .left-fhoto {
+    width: 100%;
+  }
+
+  .hom-internal-foto-info-flex-cont {
+    width: 100%;
+  }
+
+  .hom-internal-foto-info-cont {
+    height: auto;
+    padding: 15px 0px 15px 0px;
+  }
+
+  .hom-internal-foto-info-had-line-cont {
+    height: auto;
+  }
+
+  .had-line-the-middle-span-cont {
+    white-space: nowrap;
+    overflow-y: auto;
+    height: 30px;
+  }
+
+  .had-line-the-middle-flex-cont-2 {
+    flex-wrap: wrap;
+  }
+
+  .had-line-the-middle-flex-column-cont-2 {
+    text-align: right;
+  }
+
+  .display-none-media {
+    display: none;
+  }
+
+  .had-line-the-middle-flex-column-span-2-display-none {
+    display: unset;
+  }
+
+  .opacity-style {
+    color: #000000;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+
+  .no-opacity-style {
+    color: #000000;
+    font-size: 14px;
+    opacity: 80%;
+  }
+}
 
 @media (max-width: 760px) {
   .Navtext {
